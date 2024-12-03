@@ -3,7 +3,7 @@ package net.msk.adventOfCode;
 import java.util.List;
 
 //https://adventofcode.com/2024/day/1
-public class Day01_HistorianHysteria {
+public class Day01HistorianHysteria {
 
     public static int calculateTotalDistance(final List<Integer> left, final List<Integer> right) {
 

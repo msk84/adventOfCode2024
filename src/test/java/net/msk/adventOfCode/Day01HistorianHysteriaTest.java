@@ -15,7 +15,7 @@ class Day01HistorianHysteriaTest extends BaseTest {
     void part1Example() {
         final List<Integer> left = List.of(3,4,2,1,3,3);
         final List<Integer> right = List.of(4,3,5,3,9,3);
-        final int result = Day01_HistorianHysteria.calculateTotalDistance(left, right);
+        final int result = Day01HistorianHysteria.calculateTotalDistance(left, right);
         assertEquals(11, result);
     }
 
@@ -32,7 +32,7 @@ class Day01HistorianHysteriaTest extends BaseTest {
             right.add(Integer.valueOf(row[1]));
         });
 
-        final int result = Day01_HistorianHysteria.calculateTotalDistance(left, right);
+        final int result = Day01HistorianHysteria.calculateTotalDistance(left, right);
         assertEquals(1189304, result);
     }
 
@@ -40,7 +40,7 @@ class Day01HistorianHysteriaTest extends BaseTest {
     void part2Example() {
         final List<Integer> left = List.of(3,4,2,1,3,3);
         final List<Integer> right = List.of(4,3,5,3,9,3);
-        final long result = Day01_HistorianHysteria.calculateSimilarityScore(left, right);
+        final long result = Day01HistorianHysteria.calculateSimilarityScore(left, right);
         assertEquals(31, result);
     }
 
@@ -57,7 +57,7 @@ class Day01HistorianHysteriaTest extends BaseTest {
             right.add(Integer.valueOf(row[1]));
         });
 
-        final long result = Day01_HistorianHysteria.calculateSimilarityScore(left, right);
+        final long result = Day01HistorianHysteria.calculateSimilarityScore(left, right);
         assertEquals(24349736, result);
     }
 }
